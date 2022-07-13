@@ -5,7 +5,7 @@
       "menuHeader": "เมนูหลัก"
     },
     {
-      "url": "/",
+      "url": "/dashboard",
       "name": "แดชบอร์ด",
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "slug": "dashboard"
@@ -27,7 +27,7 @@
       "menuHeader": "ตัวอย่างหน้าอื่น ๆ"
     },
     {
-      "url": "/login",
+      "url": "/",
       "name": "เข้าสู่ระบบ",
       "icon": "menu-icon tf-icons bx bx-user-check",
       "slug": "app-calendar"

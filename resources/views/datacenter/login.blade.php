@@ -55,7 +55,7 @@ $customizerHidden = 'customizer-hide';
         <h4 class="mb-2 text-center">ยินดีต้อนรับเข้าสู่ระบบ<br> PCD's {{config('variables.templateName')}}</h4>
         <p class="mb-4">เข้าสู่ระบบเพื่อจัดการฐานข้อมูลสำหรับเจ้าหน้าที่และผู้บริหาร</p>
 
-        <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="GET">
+        <form id="formAuthentication" class="mb-3" action="{{url('/dashboard')}}" method="GET">
           <div class="mb-3">
             <label for="email" class="form-label">อีเมลล์</label>
             <input type="text" class="form-control" id="email" name="email-username" placeholder="กรุณากรอกอีเมลล์ของท่าน" autofocus>

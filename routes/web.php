@@ -17,11 +17,11 @@ use App\Http\Controllers\laravel_example\UserManagement;
 
 $controller_path = 'App\Http\Controllers';
 
-Route::get('/login', $controller_path . '\datacenter\AuthPage@index')->name('login');
+Route::get('/', $controller_path . '\datacenter\AuthPage@index')->name('login');
 
 Route::get('/datatable', $controller_path . '\datacenter\AuthPage@datatable')->name('datatable');
 
-Route::get('/', $controller_path . '\datacenter\AuthPage@analy')->name('dashboard');
+Route::get('/dashboard', $controller_path . '\datacenter\AuthPage@analy')->name('dashboard');
 
 Route::get('/public', $controller_path . '\datacenter\AuthPage@people')->name('people');
 
